@@ -11,3 +11,143 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body
+{
+  background-color: #b6d5e1;
+}
+.complete
+{
+  position:absolute;
+  background-color: white;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  border:2px solid black;
+  padding:45px;
+  padding-left:80px;
+  padding-right:80px;
+  border-radius: 10px;
+}
+.page
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+/* .text-box,.password-box,.password-boxing,.email-box
+{
+  padding:10px;
+  margin-bottom:30px;
+  border-radius:20px;
+  border:1px solid black;
+} */
+
+.condition-1,.condition-2
+{
+  font-weight:500;
+  color:violet;
+
+}
+
+.login,.Account
+{
+  background-color:lightskyblue;
+  border-radius:20px;
+  border:1px solid black;
+  color:white;
+  font-weight:bold;
+  font-size: 15px;
+  cursor:pointer;
+}
+
+.login
+{
+  padding-left:70px;
+  padding-right:70px;
+  margin-bottom:20px;
+}
+
+.Account
+{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.prajith
+{
+  width:fit-content;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  border:2px solid black;
+  border-radius:10px;
+  padding:150px;
+}
+
+.handle,.handling
+{
+  border:2px solid black;
+  border-radius:10px;
+  margin-left:30px;
+}
+
+.handle
+{
+  position:absolute;
+  left:50%;
+
+}
+.handling{
+  position:absolute;
+  left:60%;
+}
+
+.don 
+{
+  position:absolute;
+  left:50%;
+}
+#pic {
+  width: 300px;
+  height: 300px;
+}
+#product {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.division
+{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border:2px solid black;
+  border-radius:10px;
+  padding:20px;
+  display:grid;
+}
+.text-box,.text1-box
+{
+  border-radius:10px;
+  margin-bottom:20px;
+  padding:20px;
+}
+
+.homecoming
+{
+  margin-top:20px;
+  justify-content: space-evenly;
+  border:2px solid black;
+  display:flex;
+  color:red;
+  border-radius: 10px;
+  cursor:pointer;
+  background-color:darkgrey;
+
+}
